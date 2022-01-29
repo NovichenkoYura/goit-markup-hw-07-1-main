@@ -359,11 +359,11 @@ body {
   color: var(--accent-color);
 }
 
-.header-address__link:not(:last-child) {
+.header-address__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.header-address_item {
+.header-address__box {
   display: flex;
   align-items: center;
 }
@@ -372,14 +372,14 @@ body {
   margin-right: 10px;
 }
 
-.header-address__link {
+.header-address__item {
   display: flex;
   color: var(--secondary-text-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-address__link:focus, .header-address__link:hover {
+.header-address__item:focus, .header-address__item:hover {
   color: var(--accent-color);
 }
 

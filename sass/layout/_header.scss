@@ -46,11 +46,11 @@
   color: var(--accent-color);
 }
 
-.header-address__link:not(:last-child) {
+.header-address__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.header-address_item {
+.header-address__box {
   display: flex;
   align-items: center;
 }
@@ -59,7 +59,7 @@
   margin-right: 10px;
 }
 
-.header-address__link {
+.header-address__item {
   display: flex;
   color: var(--secondary-text-color);
   transition-duration: 250ms;
