@@ -7,12 +7,12 @@
   padding-bottom: 0px;
 }
 
-.about .list {
+.about .about__list {
   display: flex;
   justify-content: space-between;
 }
 
-.about-image {
+.about__image {
   position: relative;
 }
 
@@ -27,7 +27,7 @@
   bottom: 0;
 }
 
-.about-name-title {
+.about__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
