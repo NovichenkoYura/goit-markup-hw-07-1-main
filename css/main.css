@@ -575,7 +575,7 @@ body {
   margin-right: auto;
 }
 
-.team-item {
+.team-card__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -584,11 +584,11 @@ body {
   margin-bottom: 10px;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
 }
 
-.role {
+.team-card__role {
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: normal;
@@ -599,32 +599,32 @@ body {
   margin-bottom: 16px;
 }
 
-.name-role {
+.name__role {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
 }
 
-.team-card {
+.team__card {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-social {
+.team-social__list {
   display: flex;
   justify-content: center;
 }
 
-.player-social-link {
+.team-social__link {
   width: 44px;
   height: 44px;
   background-color: var(--white);
@@ -637,16 +637,16 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.player-social-link:hover, .player-social-link:focus {
+.team-social__link:hover, .team-social__link:focus {
   background-color: var(--accent-color);
   color: var(--white);
 }
 
-.player-social-icon {
+.team-social__icon {
   fill: currentColor;
 }
 
-.team-player-social + .team-player-social {
+.team-social__item + .team-social__item {
   margin-left: 10px;
 }
 
