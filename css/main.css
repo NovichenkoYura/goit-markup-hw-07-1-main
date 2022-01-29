@@ -714,7 +714,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-logo {
+.footer__logo {
   margin-bottom: 20px;
 }
 
@@ -731,7 +731,7 @@ body {
   color: var(--white);
 }
 
-.footer-list-item {
+.footer-list__item {
   margin-bottom: 9px;
 }
 
@@ -753,7 +753,7 @@ body {
   color: var(--footer-text-color);
 }
 
-.footer-social-header {
+.footer-social-list__title {
   font-family: Roboto;
   font-weight: bold;
   font-style: normal;
@@ -763,7 +763,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-item-social {
+.footer-social-list {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
@@ -773,17 +773,17 @@ body {
   display: flex;
 }
 
-.footer-logo-address {
+.footer__address {
   display: flex;
   flex-direction: column;
 }
 
-.footer-wrap {
+.footer__wrap {
   display: flex;
   align-items: baseline;
 }
 
-.footer-social-link {
+.footer-social-list__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -796,7 +796,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover, .footer-social-link:focus {
+.footer-social-list__link:hover, .footer-social-list__link:focus {
   background-color: var(--accent-color);
   color: var(--white);
 }
@@ -805,7 +805,7 @@ body {
   fill: currentColor;
 }
 
-.footer-social-item + .footer-social-item {
+.footer-social-list__item + .footer-social-list__item {
   margin-left: 10px;
 }
 
@@ -815,7 +815,7 @@ body {
   margin-left: 93px;
 }
 
-.footer-form-input {
+.footer-field__input {
   width: 358px;
   height: 50px;
   background-color: var(--secondary-background-color);
@@ -829,7 +829,7 @@ body {
   line-height: 1.25;
 }
 
-.footer-form-input::placeholder {
+.footer-field__input::placeholder {
   font-family: Roboto;
   font-style: Regular;
   font-size: 16px;
@@ -837,7 +837,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input-title {
+.footer-field__title {
   font-weight: Bold;
   font-size: 14px;
   line-height: 1.14;
@@ -845,13 +845,13 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-input-wrap {
+.footer-field__wrap {
   display: flex;
   justify-content: flex-start;
   position: relative;
 }
 
-.footer-field-button {
+.footer-field__button {
   font-family: inherit;
   color: var(--white);
   background-color: var(--accent-color);
@@ -872,7 +872,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-input-icon {
+.footer-field__icon {
   margin-left: 10px;
 }
 
